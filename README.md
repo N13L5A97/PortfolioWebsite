@@ -45,7 +45,7 @@ Vanuit het Moodboard ben ik de titel gaan ontwerpen en begonnen aan de style gui
 ### 12:30 Digitale Mobiele Wireframes(60 min)
 Ik ben begonnen met de digitale wireframes voor de mobiele versie, omdat ik mobile first wil werken en de website zo responsive mogelijk wil maken.
 
-<img src="readmeImages/mobileWireframes.png.png" width="375px" alt="foto van mobiele wireframes">
+<img src="readmeImages/mobileWireframes.png" width="375px" alt="foto van mobiele wireframes">
 
 
 ### 15:00 Digitale Desktop Wireframes (30 min)
