@@ -16,7 +16,7 @@ Het aanmaken van mappen en bestanden. Opzet van het procesverslag.
 Ik ben begonnen aan het schetsen van wireframs voor de mobiele versie van mijn portfolio.
 Om een idee te krijgen van hoe ik het er uit wil laten komen te zien heb ik besloten om verder te gaan met het maken van een moodboard.
 
-![foto van de wireframes](readmeImages/)
+<img src="readmeImages/" width="375px" alt="foto van wireframe schetsen">
 
 
 ### 12:30 Moodboard en fonts (45 min)
@@ -28,13 +28,13 @@ Ook ben ik gaan zoeken naar fonts die ik zou kunnen gebruiken. De fonts die ik w
 
 Allemaal afkomstig van https://fonts.adobe.com/ 
 
-![foto van het moodboard](readmmeImages/moodboard.png)
+<img src="readmeImages/moodboard.png" width="375px" alt="foto van moodboard">
 
 
 ### 14:00 Style guide (90 min)
 Vanuit het Moodboard ben ik de titel gaan ontwerpen en begonnen aan de style guide.
 
-![foto van titelontwerp](readmmeImages/titelontwerp.png)
+<img src="readmeImages/titelontwerp.png" width="375px" alt="foto van titel">
 
 
 
@@ -45,12 +45,14 @@ Vanuit het Moodboard ben ik de titel gaan ontwerpen en begonnen aan de style gui
 ### 12:30 Digitale Mobiele Wireframes(60 min)
 Ik ben begonnen met de digitale wireframes voor de mobiele versie, omdat ik mobile first wil werken en de website zo responsive mogelijk wil maken.
 
-![foto van digitale mobiele wireframes](readmmeImages/mobileWireframes)
+<img src="readmeImages/mobileWireframes.png.png" width="375px" alt="foto van mobiele wireframes">
+
 
 ### 15:00 Digitale Desktop Wireframes (30 min)
 Na de mobiele wireframes ben ik doorgegaan naar de desktop wireframes.
 
-![foto van digitale desktop wireframes](readmmeImages/desktopWireframes)
+<img src="readmeImages/desktopWireframes.png" width="375px" alt="foto van desktop wireframes">
+
 
 
 
@@ -69,27 +71,28 @@ Verder met Style Assets
 
 
 
+
 ## 15 november 2022 (2 uur)
 
 ### 10:30 (30 min)
 Verder met Style Assets en Style Guide
 
-![foto van Style Assets](readmmeImages/)
 
 ### 16:30 Screen Designs Mobile (1,5 uur)
 Na het maken van assets en de wireframes kan ik gaan beginnen aan de mobile screen designs. 
 
-![foto van mobile screen designs](readmmeImages/MobileScreenDesign.png)
+<img src="readmeImages/mobileScreenDesign.png" width="375px" alt="foto van mobiele screen designs">
+
 
 
 
 
 ## 21 november 2022 ()
 
-### 15:00 Screen Designs Desktop (1 uur)
+### 15:00 Screen Designs Desktop (1,5 uur)
 Nu de mobile screen designs af zijn kan ik doorgaan met de desktop versie. Wanneer die af zijn kan mijn style guide helemaal in elkaar gezet gaan worden. Hierna zal een tussentijdse feedback plaats vinden. 
 
-![foto van desktop screen designs](readmmeImages/DesktopScreenDesign.png)
+<img src="readmeImages/desktopScreenDesign.png" width="375px" alt="foto van desktop screen designs">
 
 
 
