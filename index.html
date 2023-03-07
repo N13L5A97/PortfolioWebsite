@@ -4,9 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio Niels Aling</title>
+    <link href="styles/style.css" rel="stylesheet">
+
+    <!-- Dit is de link naar mijn Adobe Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/rbs7yyc.css">
 </head>
 <body>
+    <header>
+        <h1> Portfolio</h1>
+        <img src="images/portfolio.svg" alt="Portfolio in neon letters">
+        <a href="#menu" id="menuButton"> <img src="images/menu.svg" alt="menu button"></a>
+        <section id="desktopMenu">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT ME</a>
+            <a href="#projectContainer">RECENT PROJECTS</a>
+            <a href="#socials">SOCIALS</a>
+            <a href="#contact">CONTACT</a>
+        </section>
+    </header>
+    <main>
+        <section id="menu">
+            <a href="#home" id="homeButton">HOME</a>
+            <a href="#about" id="aboutButton">ABOUT ME</a>
+            <a href="#projectContainer" id="projectsButton">RECENT PROJECTS</a>
+            <a href="#socials" id="socialsButton">SOCIALS</a>
+            <a href="#contact" id="contactButton">CONTACT</a>
+        </section>
+
+        <section id="home">
+            <img src="images/bolt.svg" alt="bliksem icon">
+
+            <a href="https://www.behance.net/nealing" class="buttons"> Design </a>
+            <a href="https://www.youtube.com/channel/UCrJcgkHGXgfKZhKx9S3Zggw" class="buttons"> Audio/Visual </a>
+            <a href="https://github.com/N13L5A97" class="buttons"> Web Development </a>
+            <a href="https://www.instagram.com/mx.visuals_ig/" class="buttons"> Photography </a>
+
+            <a href="#about" class="down"> <img src="images/arrow.svg" alt="pijl naar volgende hoofdstuk"> </a>
+        </section>
+
+        <section id="about">
+            <h2>ABOUT ME</h2>
+            <figure> 
+                <!-- <img src="images/niels1.png" alt="foto van Niels"> -->
+            </figure>
+            <figcaption> NIELS ALING (25) </figcaption>
+            <p>Ik ben momenteel tweedejaars student Communicatie Multimedia Design aan de Hogeschool van Amsterdam. 
+                Daarvoor heb ik de opleiding Animatie, Audio/Visuele Vormgeving behaald. 
+                Ik ben een creatief en technisch persoon die openminded is en gelijkheid erg belangrijk vind.
+                Ben je benieuwd naar wat ik allemaal kan? Neem dan een kijkje op mijn website en volg mijn socialmedia kanalen.
+            </p>
+            <a href="#projectContainer" class="down"> <img src="images/arrow.svg" alt="pijl naar volgende hoofdstuk"> </a>
+        </section>
+
+        <section id="projectContainer">
+            <h2>Recent Projects</h2>
+            <section class="projectSlider">
+                <article class="project">
+                    <h3>PORTFOLIO</h3>
+                    <a href="https://github.com/N13L5A97/PortfolioWebsite"> <img src="images/portfolioThumbnail.png" alt="portfolio thumbnail"> </a> 
+                    <p>Kennis over HTML, CSS en Javascript zelfstandig toepassen</p>
+                </article>
+                <article class="project">
+                    <h3>APPLE REMAKE</h3>
+                    <a href="https://github.com/N13L5A97/AppleRemake"> <img src="images/appleThumbnail.png" alt="apple project thumbnail"> </a> 
+                    <p>HTML, CSS en Javascript remake van Apple homepage en Airpods pagina</p>
+                </article>
+                <article class="project">
+                    <h3>Project Beyond</h3>
+                    <a href="https://github.com/N13L5A97/Beyond"><img src="images/beyondThumbnail.png" alt="Project Beyond thumbnail"></a>
+                    <p>School project over een interactieve installatie zonder scherm</p>
+                </article>
+            </section>
+            <a href="#socials" class="down"> <img src="images/arrow.svg" alt="pijl naar volgende hoofdstuk"> </a>
+        </section>
+
+         <!-- hier nog een keer die button? -->
+
+         <section id="socials">
+            <h2>SOCIALS</h2>
+            <h3>BENIEUWD NAAR MIJN WERK? CHECK THE SOCIALS!</h3>
+            <article>
+                <a href="https://github.com/N13L5A97"> <img src="images/github.svg" alt="icon van Github"></a>
+                <a href="https://www.behance.net/nealing"> <img src="images/behance.svg" alt="icon van Behance"></a>
+                <a href="https://www.youtube.com/@Mx.visuals97"> <img src="images/youtube.svg" alt="icon van Youtube"></a>
+                <a href="https://www.instagram.com/mx.visuals_ig/"> <img src="images/instagram.svg" alt="icon van Instagram"></a>
+            </article>
+            <a href="#contact" class="down"> <img src="images/arrow.svg" alt="pijl naar volgende hoofdstuk"> </a>
+         </section>
+
+         <!-- hier nog een keer die button? -->
+
+         <section id="contact">
+            <h2>CONTACT</h2>
+            <figure></figure>
+            <!-- gegevens van linked in  -->
+            <article>
+                <a href="linkedin.com/in/niels-aling"><img src="images/linkedn.svg" alt="icon van LinkedIn">linkedin.com/in/niels-aling</a>
+            </article>
+            <!-- gegevens van mail -->
+            <article>
+                <a href = "mailto: niels.aling@hotmail.com"><img src="images/mail.svg" alt="icon van mail"> niels.aling@hotmail.com </a>
+            </article>
+            <!-- gegevens van telefoon -->
+            <!-- werkt dit anders? ff checken -->
+            <article>
+                <a href="tel: +31 646890728"><img src="images/phone.svg" alt="icon van telefoon">+31 646890728</a>
+            </article>  
+            <a href="#home" class="down"> <img src="images/arrow.svg" alt="pijl naar volgende hoofdstuk"> </a>
+         </section>
+    </main>
+    <script defer src="scripts/script.js"></script>
     
 </body>
 </html>

@@ -1,0 +1,397 @@
+:root {
+  /*kleuren */
+  --color-text: #ffffff;
+  --color-background: #1d1d1d;
+
+  --border: solid 2px #ffee00;
+  --header-font: "industry-inc-base", sans-serif;
+  --p-font: "termina", sans-serif;
+}
+
+body {
+  /* kleuren */
+  background-color: var(--color-background);
+  color: var(--color-text);
+
+  /* typografie */
+  font-family: var(--p-font);
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+
+  /* positie */
+  position: relative;
+  margin: 0;
+}
+
+/* Style the scrollbar background */
+#projectContainer > ::-webkit-scrollbar {
+  background: none;
+  width: 50%;
+  height: .5em;
+}
+
+/* Style the scrollbar handle */
+#projectContainer > ::-webkit-scrollbar-thumb {
+  background:  #ffee00;
+  box-shadow: 0 0 10px 0.01px #ff0000, inset 0 0 10px 0.01px #fb4100;
+  border-radius: 5em;
+}
+
+header {
+  /* position */
+  z-index: 2;
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  /* centreer img */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* grootte */
+  width: 100%;
+  height: 5em;
+
+  /* kleur */
+  background-color: var(--color-background);
+}
+
+header > img {
+  height: 4em;
+}
+
+main {
+  height: 100dvh;
+  width: 100dvw;
+  align-items: center;
+
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+main > section {
+  height: 100dvh;
+  scroll-snap-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10em;
+}
+
+
+h1 {
+  display: none;
+}
+
+h2 {
+  font-family: var(--header-font);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: var(--header-font);
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 1em auto;
+  max-width: 20em;
+}
+
+.down img {
+  width: 5em;
+  aspect-ratio: 1/1;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: .5em;
+}
+
+p {
+  margin: 1em auto;
+  max-width: 30em;
+  padding: 1em;
+}
+
+.buttons {
+  /* grootte */
+  max-width: 35em;
+  min-width: 15em;
+
+  /* rand en kleuren  */
+  border-radius: 8px;
+  background-color: #1d1d1d;
+  color: var(--color-text);
+
+  /* font */
+  font-family: "termina";
+  font-size: 1em;
+
+  /* border */
+  border: var(--border);
+  box-shadow: 0 0 10px 0.01px #ff0000, inset 0 0 10px 0.01px #fb4100;
+
+  /* padding */
+  padding: 0.2em 1em;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+#desktopMenu {
+  display: none;
+}
+
+#menuButton {
+  position: fixed;
+  top: 0;
+  right: 1em;
+  height: 4em;
+  aspect-ratio: 1/1;
+}
+
+#menu.open {
+  font-family: var(--header-font);
+  font-size: 2.5em;
+  gap: 0.5em;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color-background);
+  z-index: 1;
+  transform: translateX(0);
+  margin: 0;
+}
+
+#menu {
+  transform: translateX(100%);
+  display: none;
+}
+
+#menu a {
+  position: relative;
+  width: 90%;
+}
+
+#menu a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 100%;
+  border-bottom: var(--border);
+  box-shadow: 0 0 10px 0.01px #ff0000, inset 0 0 10px 0.01px #fb4100;
+}
+
+#home {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+#home img{
+	max-width: 20em;
+}
+
+#about figure {
+  /* grootte van de container */
+  min-width: 15em;
+  aspect-ratio: 1/1;
+  margin: 0 auto;
+
+  /* neon border */
+  border: var(--border);
+  box-shadow: 0 0 10px 0.01px #ff0000, inset 0 0 10px 0.01px #fb4100;
+
+  /* foto van niels en laat hem passen in de container */
+  background-image: url(../images/niels1.png);
+  background-size: contain;
+}
+
+/* section recent projects */
+
+#projectContainer {
+  width: 100dvw;
+}
+
+.projectSlider {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  overflow-x: scroll;
+  gap: 4em;
+  padding-left: 50%;
+  scroll-snap-type: x mandatory;
+}
+
+.project img {
+  width: 65dvw;
+  aspect-ratio: 1/1;
+  max-width: 20em;
+  border: var(--border);
+  box-shadow: 0 0 10px 0.01px #ff0000, inset 0 0 10px 0.01px #fb4100;
+}
+
+.project {
+  transform: translateX(-50%);
+  scroll-snap-align: center;
+}
+
+/* section socials */
+#socials article img {
+  height: 10em;
+}
+
+/* section contact */
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15em;
+}
+
+#contact a {
+  display: flex;
+  align-items: center;
+}
+
+#contact figure {
+  /* grootte van de container */
+  width: 15em;
+  aspect-ratio: 1/1;
+
+  /* neon border */
+  border: var(--border);
+  border-radius: 50%;
+  box-shadow: 0 0 10px 0.01px #ff0000, inset 0 0 10px 0.01px #fb4100;
+
+  /* foto van niels en laat hem passen in de container */
+  background-image: url(../images/niels2.png);
+  background-size: contain;
+}
+
+#contact a img {
+  width: 2.5em;
+}
+
+#contact .down img {
+  width: 5em;
+  bottom: 5em;
+}
+
+#contact .down {
+  transform: rotate(180deg);
+}
+
+
+/* responsive gedeelte */
+
+/* tablet */
+@media (min-width: 768px) {
+
+  #about figure{
+		width: 30em;
+	}
+
+	#contact .down img {
+		width: 6em;
+		bottom: 3em;
+	  }
+	
+}
+
+/* desktop */
+@media (min-width: 1024px){
+  #menuButton {
+    display: none;
+  }
+
+  #desktopMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+
+    gap: 2em;
+    width: 2em;
+    margin: 3em;
+  }
+
+  #desktopMenu a {
+    padding: 1em;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-size: .8em;
+    border-bottom: var(--border);
+  }
+
+  p {
+    max-width: 60em;
+  }
+
+  .projectSlider {
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+    padding-left: 0;
+    margin: 0 10em;
+  }
+
+  .project {
+    transform: translateX(0);
+  }
+
+  .project img {
+    width: 15em;
+    aspect-ratio: 1/1;
+    max-width: 20em;
+  }
+
+  .project p {
+    max-width: 15em;
+  }
+
+
+  #home img{
+    max-width: 15em;
+  }
+
+  #about figure{
+    width: 15em;
+    aspect-ratio: 1/1;
+    background-repeat: no-repeat;
+  }
+
+  .down {
+    bottom: 1em;
+    width: 4em;
+  }
+
+  #contact .down img {
+    width: 4em;
+    bottom: 2em;
+  }
+
+
+}
