@@ -189,15 +189,14 @@ https://chat.openai.com/chat/9050d0c3-77c8-4798-b0a7-ef73f24ee389
 
 
 ### 13:00 ChatGPT (1 uur)
-In chatGPT heb ik een slider laten maken en deze ook deels werkend gekregen. Alleen op de volgende slide laat hij de foto niet zien. Dit probeer ik nu op te lossen samen met chatGPT.
+In chatGPT heb ik een slider laten maken en deze ook deels werkend gekregen. Alleen werkt het nog niet optimaal. Na een tijdje proberen dit op te lossen heb ik het toch maar opgegeven.
 
 
 ## 26 februari 2023 (4 uur)
-Omdat de tijd een beetje dringt met het vinden van een stage en ik heb geleerd over progressive enhancement heb ik besloten om de slider eerst alleen met html en css te maken. Wanneer dit af is kan ik altijd nog javascript toevoegen om mijn website te verbeteren.
+Nieuwe dag, nieuwe kansen. Na wat gestuntel met Chat GPT heb ik besloten om de slider eerst alleen met html en css te maken. Wanneer dit af is kan ik altijd nog javascript toevoegen om mijn website te verbeteren.
 
 ### 11:30 CSS Slider (1 uur)
 De slider werkt met overflow scroll.
-
 
 ### 12:30 Scroll Snap (3 uur)
 Omdat ik graag wil dat de site soepel van section naar section springt ben ik scroll snap gaan onderzoeken. Ik heb gevonden dat ik het beste scroll-snap-type: y mandatory; kan toevoegen omdat deze over de y axis gaat en van het ene snap point naar het andere snap point springt en dat is precies wat ik nodig heb. 
