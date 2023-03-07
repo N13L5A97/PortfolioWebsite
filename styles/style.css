@@ -333,9 +333,10 @@ a {
     bottom: 0;
     z-index: 1;
 
-    gap: 2em;
+    gap: 1em;
     width: 2em;
-    margin: 3em;
+    margin: 2em;
+    font-size: .8em;
   }
 
   #desktopMenu a {
