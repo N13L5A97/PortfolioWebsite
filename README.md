@@ -21,7 +21,7 @@ Het aanmaken van mappen en bestanden. Opzet van het procesverslag.
 Ik ben begonnen aan het schetsen van wireframes voor de mobiele versie van mijn portfolio.
 Om een idee te krijgen van hoe ik het er uit wil laten komen te zien heb ik besloten om verder te gaan met het maken van een moodboard.
 
-<img src="readmeImages/" width="375px" alt="foto van wireframe schetsen">
+<img src="readmeImages/wireframeSchetsen.jpg" width="375px" alt="foto van wireframe schetsen">
 
 
 ### 13:00 Moodboard en fonts (1 uur)
