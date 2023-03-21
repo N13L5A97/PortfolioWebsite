@@ -92,7 +92,6 @@ h2 {
   font-weight: 400;
   font-style: normal;
   font-size: 2em;
-  margin-top: 6em;
 }
 
 h3 {
@@ -116,8 +115,7 @@ h3 {
 
 p {
   margin: 1em auto;
-  max-width: 30em;
-  padding: 1em;
+  max-width: 20em;
 }
 
 .buttons {
@@ -209,9 +207,13 @@ a {
 	max-width: 20em;
 }
 
+#about{
+  padding-top: 3em;
+}
+
 #about figure {
   /* grootte van de container */
-  min-width: 15em;
+  min-width: 10em;
   aspect-ratio: 1/1;
   margin: 0 auto;
 
@@ -240,7 +242,7 @@ a {
 }
 
 .project img {
-  width: 65dvw;
+  width: 45dvw;
   aspect-ratio: 1/1;
   max-width: 20em;
   border: var(--border);
