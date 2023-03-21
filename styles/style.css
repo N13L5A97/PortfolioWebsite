@@ -207,7 +207,7 @@ a {
 	max-width: 20em;
 }
 
-#about{
+#about, #projectContainer {
   padding-top: 3em;
 }
 
